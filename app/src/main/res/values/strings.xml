@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Score Statistics</string>
+    <string name="add_team">Add Team</string>
+    <string name="add_score">Add Score</string>
+    <string name="show_statistics">Show Statistics</string>
+    <string name="reset_statistics">Reset Statistics</string>
+    <string name="save_teams_score">Save</string>
+    <string name="add_team_2_score">team 2 score</string>
+    <string name="add_team_1_score">team 1 score</string>
+    <string name="team_name">Team Name</string>
+    <string name="team_name_edit_text">team name</string>
+    <string name="save_team_button">save</string>
+    <string name="score_table_text_view_show_statistics">Score Table</string>
+    <string name="team1">Team1</string>
+    <string name="team2">Team2</string>
+    <string name="team3">Team3</string>
+    <string name="matches">Matches</string>
+    <string name="wins">Wins</string>
+    <string name="scored">Scored</string>
+    <string name="conceded">Conceded</string>
+    <string name="sort_by">Sort By:</string>
+</resources>

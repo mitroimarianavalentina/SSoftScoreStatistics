@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/add_team_padding">
+
+    <TextView
+        android:id="@+id/team_name_text_view"
+        android:layout_width="@dimen/team_name_title_width"
+        android:layout_height="@dimen/team_name_title_height"
+        android:layout_marginEnd="@dimen/team_name_title_margin_right"
+        android:layout_marginLeft="@dimen/team_name_title_margin_left"
+        android:layout_marginRight="@dimen/team_name_title_margin_right"
+        android:layout_marginStart="@dimen/team_name_title_margin_left"
+        android:layout_marginTop="@dimen/team_name_title_margin_top"
+        android:text="@string/team_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/team_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/team_name_title_margin_right"
+        android:layout_marginLeft="@dimen/team_name_title_margin_left"
+        android:layout_marginRight="@dimen/team_name_title_margin_right"
+        android:layout_marginStart="@dimen/team_name_title_margin_left"
+        android:layout_marginTop="@dimen/team_name_title_edit_margin_top"
+        android:ems="10"
+        android:hint="@string/add_team"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team_name_text_view" />
+
+    <Button
+        android:id="@+id/save_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/team_name_title_margin_top"
+        android:layout_marginEnd="@dimen/team_name_title_margin_right"
+        android:layout_marginLeft="@dimen/team_name_title_margin_left"
+        android:layout_marginRight="@dimen/team_name_title_margin_right"
+        android:layout_marginStart="@dimen/team_name_title_margin_left"
+        android:layout_marginTop="@dimen/team_name_title_margin_top"
+        android:text="@string/save_team_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team_name_edit_text"
+        app:layout_constraintVertical_bias="0.003" />
+
+
+</android.support.constraint.ConstraintLayout>
